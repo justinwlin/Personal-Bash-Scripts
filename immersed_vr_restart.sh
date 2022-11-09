@@ -1,4 +1,12 @@
 #!/bin/bash
+
+<<'###ABOUT-THIS-SCRIPT'
+This script is a bash script for restarting my Immersed VR agent on Mac. 
+
+Recommendation is to keybind this script to a key on your keyboard, for me I use
+the program Alfred to do this. 
+###ABOUT-THIS-SCRIPT
+
 if pgrep -x "Immersed" > /dev/null
 then
     echo "Running - Restarting"
